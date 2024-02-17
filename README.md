@@ -27,3 +27,20 @@ Para este projeto, foi criado um controle de usuário e carros com Login, no for
 Foi desenvolvido uma aplicação com as tecnologias Java (Spring Boot) e JavaScript (ReactJS), onde a comunicação entre ambas é feita através de uma API Restful. Essa API é responsável por realizar o controle dos carros e usuários. Também é utilizado um mecanismo de segurança que gera um token JWT que é responsável por impedir qualquer acesso de usuários não autenticados a determinados recursos. O banco utilizado foi o H2.
 
 Foi desenvolvido todas as camadas da aplicação (Models, Service e Controllers) e, por meio dessa aplicação, será possível realizar as operações básicas que se pode fazer em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão (ou CRUD - Create, Read, Update e Delete).
+
+### Executar Frontend
+
+1. Clone o repositório
+
+  - Use o comando: 
+   ```sh
+   git clone https://github.com/andrelleitao/desafio-pitang.git
+   ```
+  2. Instale as dependências
+   ```sh
+   npm install
+   ```
+  3. Execute o projeto
+  ```sh
+   npm start
+   ```
