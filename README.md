@@ -36,6 +36,7 @@ Foi desenvolvido todas as camadas da aplicação (Models, Service e Controllers)
    ```sh
    git clone https://github.com/andrelleitao/desafio-pitang.git
    ```
+  1. Acesso o diretório *frontend* do projeto
   2. Instale as dependências
    ```sh
    npm install
@@ -43,4 +44,19 @@ Foi desenvolvido todas as camadas da aplicação (Models, Service e Controllers)
   3. Execute o projeto
   ```sh
    npm start
+   ```
+### Executar Backend
+
+- Use o comando: 
+   ```sh
+   git clone https://github.com/andrelleitao/desafio-pitang.git
+   ```
+  2. Acesse o diretório *backend* do projeto
+  3. Faça o build do projeto
+   ```sh
+   mvn clean install
+   ```
+  4. Execute o projeto
+  ```sh
+   java -jar .\target\desafio-pitang-0.0.1-SNAPSHOT.jar
    ```
