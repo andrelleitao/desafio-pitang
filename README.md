@@ -45,6 +45,24 @@ Foi desenvolvido todas as camadas da aplicação (Models, Service e Controllers)
   ```sh
    npm start
    ```
+### Executar Frontend via Docker
+
+1. Clone o repositório
+
+  - Use o comando: 
+   ```sh
+   git clone https://github.com/andrelleitao/desafio-pitang.git
+   ```
+2. Acesse o diretório *frontend* do projeto
+3. Faça o build do projeto.
+   ```sh
+   docker build -t frontend_desafio-pitang:1.0.0 .
+   ```
+4. Execute o projeto
+  ```sh
+   docker run -p 3000:3000 frontend_desafio-pitang:1.0.0
+   ```
+
 ### Executar Backend
 
 1. Clone o repositório
@@ -61,4 +79,20 @@ Foi desenvolvido todas as camadas da aplicação (Models, Service e Controllers)
 4. Execute o projeto
   ```sh
    java -jar .\target\desafio-pitang-0.0.1-SNAPSHOT.jar
+   ```
+
+### Executar Backend via Docker
+
+- Use o comando: 
+   ```sh
+   git clone https://github.com/andrelleitao/desafio-pitang.git
+   ```
+2. Acesse o diretório *backend* do projeto
+3. Faça o build do projeto
+   ```sh
+   docker build -t backend_desafio-pitang:1.0.0 .
+   ```
+4. Execute o projeto
+  ```sh
+   docker run -p 8080:8080 backend_desafio-pitang:1.0.0
    ```
